@@ -1,5 +1,5 @@
 # Google Drive to Hugging Face Uploader
-
+![Workflow](images/workflow.png)
 A lightweight Google Colab workflow to upload model files or entire model folders from Google Drive to Hugging Face Hub.
 
 ## Overview
