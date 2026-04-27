@@ -57,8 +57,8 @@ except Exception as e:
 # Upload model folder
 # =========================
 
-model_folder = "/content/drive/MyDrive/Models/mistral_finetuned_augdata"
-model_folder_name_in_repo = "mistral_finetuned_augdata"
+model_folder = "/content/drive/MyDrive/your_model_folder"
+model_folder_name_in_repo = "model_name_in_repo"
 
 if os.path.exists(model_folder):
     for file_name in os.listdir(model_folder):
@@ -86,8 +86,8 @@ else:
 # Upload single model file
 # =========================
 
-model_file = "/content/drive/MyDrive/Political Dataset/Models/aug_Tamilbert_supcon_25epoch.pt"
-model_file_folder_in_repo = "muril_triplet_25epoch"
+model_file = "/content/drive/MyDrive/your_model_file.pt"
+model_file_folder_in_repo = "model_name_in_repo"
 
 if os.path.exists(model_file):
     file_name = os.path.basename(model_file)
